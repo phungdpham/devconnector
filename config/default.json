@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://phung123:phung123@devconnector.frgn6.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken",
+    "githubClientId": "937397b44a3822c5092f",
+    "githubSecret": "006e3c4efca1082f7b2ce8356b22adb6a6960dfa"
+}
