@@ -9,9 +9,7 @@ const { check, validationResult } = require("express-validator");
 const User = require("../../models/User");
 
 // @route   GET api/auth
-
 // @desc    Test route
-
 // @access  Public
 
 router.get("/", auth, async (req, res) => {
@@ -25,9 +23,7 @@ router.get("/", auth, async (req, res) => {
 });
 
 // @route   POST api/users
-
 // @desc    Authenticate user & get token
-
 // @access  Public
 
 router.post(
